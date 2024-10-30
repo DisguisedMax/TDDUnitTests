@@ -2,7 +2,7 @@
 #include "main.h"
 
 
-char* RPSGame(char player1[], char player2[]) {
+char* RPSGame(const char* player1, const char* player2) {
     if (strcmp(player1, "Rock") == 0) {
         if (strcmp(player2, "Scissors") == 0) return "Player1";
         if (strcmp(player2, "Paper") == 0) return "Player2";

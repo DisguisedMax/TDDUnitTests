@@ -3,6 +3,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char* RPSGame(char player1[], char player2[]);
-
+#ifdef __cplusplus
+extern "C" {
 #endif
+
+	char* RPSGame(const char* player1, const char* player2);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif 

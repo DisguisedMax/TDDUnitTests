@@ -3,7 +3,7 @@
 #include <string>  
 #include "../Project1/main.h"
 
-extern "C" char* RPSGame(char player1[], char player2[]);
+extern "C" char* RPSGame(const char* player1, const char* player2);
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
