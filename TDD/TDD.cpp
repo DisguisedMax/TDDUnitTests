@@ -15,12 +15,12 @@ namespace TDD
 		
 		TEST_METHOD(TestPlayer1WinsWithRock)
 		{
-			Assert::AreEqual(RPSGame("Rock", "Scissors"), "Player 1 Wins");
+			Assert::AreEqual(RPSGame("Rock", "Scissors"), "Player 1 wins");
 		}
 
 		TEST_METHOD(TestPlayer2WinsWithScissors)
 		{
-			Assert::AreEqual(RPSGame("Paper", "Scissors"), "Player 2 Wins");
+			Assert::AreEqual(RPSGame("Paper", "Scissors"), "Player 2 wins");
 		}
 
 		TEST_METHOD(TestDraw)
